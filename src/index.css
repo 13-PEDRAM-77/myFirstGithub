@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    scroll-behavior: smooth !important;
+    overflow-x: hidden !important;
+    outline: unset !important;
+    font-family: 'iranyekan', 'Gilroy' !important;
+    direction: rtl !important;
+}
+
+.la, .las {
+    font-family: 'Line Awesome Free';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+@font-face {
+    font-family: iranyekan;
+    src: url(./fonts/iranyekan/iranyekanwebbold.woff) format("fontName-opentype"), url(./fonts/iranyekan/iranyekanwebregular.woff2) format("woff2"), url(./fonts/iranyekan/iranyekanweblight.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(./fonts/Gilroy/Gilroy-Medium.woff) format("fontName-opentype"), url(./fonts/Gilroy/Gilroy-Medium.ttf) format("truetype");
 }
