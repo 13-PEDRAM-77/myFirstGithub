@@ -1,0 +1,8 @@
+.headerContainer {
+    height: 22rem;
+    padding: .8rem;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    opacity: 1;
+}
